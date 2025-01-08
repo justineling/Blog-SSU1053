@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://mister-hope.com",
   },
 
-  logo: "https://assets.pinterest.com/ext/embed.html?id=612911830520569270",
+  logo: "https://static.zerochan.net/Lancer.%28Fate.strange.fake%29.1024.2700728.webp",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
