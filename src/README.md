@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: https://static.expo.dev/static/images/pages/eas/splash/background.svg
+heroImage: https://www.unimas.my/images/Logo/identiti-visual-unimas-9.png
 heroText: SSU1053 - Introduction to Social Interaction
 heroFullScreen: true
 tagline: Justine Ling Ke Yi (79724)
