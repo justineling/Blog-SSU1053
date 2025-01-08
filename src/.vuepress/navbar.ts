@@ -4,14 +4,14 @@ export default navbar([
   "/",
   // "/demo/",
   {
-    text: "Blog",
+    text: "Reflection",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
       {
         text: "Chapter",
         icon: "pen-to-square",
-        prefix: "reflection/",
+        prefix: "reflections/",
         children: [
           { text: "Chapter 1", icon: "pen-to-square", link: "1" },
           { text: "Chapter 2", icon: "pen-to-square", link: "2" },

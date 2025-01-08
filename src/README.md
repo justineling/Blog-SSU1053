@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 博客主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: https://static.expo.dev/static/images/pages/eas/splash/background.svg
 heroText: SSU1053 - Introduction to Social Interaction
 heroFullScreen: true
 tagline: Justine Ling Ke Yi (79724)
