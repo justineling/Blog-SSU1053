@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "Assignment 1: e-Portfolio",
   displayFooter: true,
 
   // 博客相关
