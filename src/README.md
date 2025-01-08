@@ -2,7 +2,7 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
+title: Blog Main Page
 heroImage: https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
 heroText: SSU1053 - Introduction to Social Interaction
 heroFullScreen: true

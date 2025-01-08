@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "https://static.zerochan.net/Lancer.%28Fate.strange.fake%29.1024.2700728.webp",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "justineling/Blog-SSU1053",
 
   docsDir: "src",
 
@@ -38,14 +38,14 @@ export default hopeTheme({
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "79724@siswa.unimas.my",
+      Email: "mailto:79724@siswa.unimas.my",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       // Gitee: "https://example.com",
-      GitHub: "https://github.com/justineling",
+      GitHub: "https://github.com/justineling/Blog-SSU1053",
       // Gitlab: "https://example.com",
-      Gmail: "justinelingkeyi@gmail.com",
+      Gmail: "mailto:justinelingkeyi@gmail.com",
       // Instagram: "https://example.com",
       // Lark: "https://example.com",
       // Lines: "https://example.com",
