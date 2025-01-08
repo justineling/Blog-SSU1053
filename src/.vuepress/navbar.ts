@@ -2,7 +2,12 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  // "/demo/",
+  {
+    text: "Self-Introduction",
+    icon: "book",
+    prefix: "/",
+    link: "intro",
+  },
   {
     text: "Reflection",
     icon: "pen-to-square",
