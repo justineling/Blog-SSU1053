@@ -5,8 +5,7 @@ export default navbar([
   {
     text: "Self-Introduction",
     icon: "book",
-    prefix: "/",
-    link: "intro",
+    link: "/intro",
   },
   {
     text: "Reflection",
