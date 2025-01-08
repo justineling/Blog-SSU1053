@@ -2,51 +2,34 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  // "/demo/",
   {
-    text: "博文",
+    text: "Blog",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
       {
-        text: "苹果",
+        text: "Chapter",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "reflection/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "Chapter 1", icon: "pen-to-square", link: "1" },
+          { text: "Chapter 2", icon: "pen-to-square", link: "2" },
+          { text: "Chapter 3", icon: "pen-to-square", link: "3" },
+          { text: "Chapter 4", icon: "pen-to-square", link: "4" },
+          { text: "Chapter 5", icon: "pen-to-square", link: "5" },
+          { text: "Chapter 6", icon: "pen-to-square", link: "6" },
+          { text: "Chapter 7", icon: "pen-to-square", link: "7" },
+          { text: "Chapter 8", icon: "pen-to-square", link: "8" },
+          { text: "Chapter 9", icon: "pen-to-square", link: "9" },
+          { text: "Chapter 10", icon: "pen-to-square", link: "10" },
         ],
       },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
-      },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
   },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+  // {
+  //   text: "V2 文档",
+  //   icon: "book",
+  //   link: "https://theme-hope.vuejs.press/zh/",
+  // },
 ]);
