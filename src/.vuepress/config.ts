@@ -62,7 +62,7 @@ export default defineUserConfig({
         {
           scale: 0.1,
           path: "https://model.oml2d.com/HK416-1-normal/model.json",
-          position: [0, 60],
+          position: [0, 80],
           stageStyle: {
             height: 330
           }
