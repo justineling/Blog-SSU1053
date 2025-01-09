@@ -59,6 +59,30 @@ export default defineUserConfig({
             height: 330
           }
         },
+        {
+          scale: 0.1,
+          path: "https://model.oml2d.com/HK416-1-normal/model.json",
+          position: [0, 60],
+          stageStyle: {
+            height: 330
+          }
+        },
+        {
+          scale: 0.1,
+          path: "https://model.oml2d.com/z16/z16.model.json",
+          position: [0, 60],
+          stageStyle: {
+            height: 330
+          }
+        },
+        {
+          scale: 0.1,
+          path: "https://model.oml2d.com/terisa/model.json",
+          position: [0, 60],
+          stageStyle: {
+            height: 330
+          }
+        },
       ],
       tips: {
         idleTips: {
