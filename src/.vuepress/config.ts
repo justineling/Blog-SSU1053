@@ -5,12 +5,12 @@ import theme from "./theme.js";
 //导入ES模块
 import { commentPlugin } from '@vuepress/plugin-comment'
 import { ribbon } from 'vuepress-plugin-ribbon'
-import { dynamicTitle } from 'vuepress-plugin-dynamic-title'
 import { goTop } from 'vuepress-plugin-go-top'
 import { live2d } from 'vuepress-plugin-live2d'
 
 //导入CommonJS模块
 const cursorEffects = require("vuepress-plugin-cursor-effects");
+const dynamicTitle = require("vuepress-plugin-dynamic-title");
 
 export default defineUserConfig({
   base: "/Blog-SSU1053/",
