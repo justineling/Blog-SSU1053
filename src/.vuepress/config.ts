@@ -27,21 +27,20 @@ export default defineUserConfig({
 
     // 彩带插件
     ribbon({
-      size: 90, // width of the ribbon, default: 90
-      opacity: 0.8, // opacity of the ribbon, default: 0.3
-      zIndex: -1, // z-index property of the background, default: -1
+      size: 90, // 彩带宽度
+      opacity: 0.8, // 不透明度
+      zIndex: -1, // z-index 属性
     }),
 
     // 鼠标效果插件
     cursorEffects({
-      size: 2, // size of the particle, default: 2
-      shape: ['star'], // shape of the particle, default: 'star'
-      zIndex: 999999999, // z-index property of the canvas, default: 999999999
+      size: 2, // 粒子大小
+      shape: ["star"], // 粒子形状
+      zIndex: 999999999, // z-index 属性
     }),
 
     // 返回顶部插件
-    goTop({
-    }),
+    goTop(),
 
     // Live2D 模型插件
     live2d({
