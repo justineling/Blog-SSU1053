@@ -18,10 +18,6 @@ export default defineUserConfig({
   theme,
 
   plugins: [
-    // 看板娘辅助插件
-    live2DAssistPlugin({
-      subPageHidden: true,
-    }),
 
     // 鼠标特效插件
     popperPlugin({
@@ -30,6 +26,11 @@ export default defineUserConfig({
         size: 1.95,
         numParticles: 8,
       },
+    }),
+
+    // 看板娘辅助插件
+    live2DAssistPlugin({
+      subPageHidden: true,
     }),
 
     // 看板娘插件
