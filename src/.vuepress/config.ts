@@ -60,7 +60,7 @@ export default defineUserConfig({
           }
         },
         {
-          scale: 0.1,
+          scale: 0.05,
           path: "https://model.oml2d.com/HK416-1-normal/model.json",
           position: [0, 80],
           stageStyle: {
@@ -68,7 +68,7 @@ export default defineUserConfig({
           }
         },
         {
-          scale: 0.1,
+          scale: 0.3,
           path: "https://model.oml2d.com/z16/z16.model.json",
           position: [0, 60],
           stageStyle: {
@@ -77,7 +77,7 @@ export default defineUserConfig({
         },
         {
           scale: 0.1,
-          path: "https://model.oml2d.com/terisa/model.json",
+          path: "https://model.oml2d.com/wed_16/wed_16.model.json",
           position: [0, 60],
           stageStyle: {
             height: 330
