@@ -3,11 +3,10 @@ import theme from "./theme.js";
 
 //插件
 //导入模块
-import ribbon from 'vuepress-plugin-ribbon';
-import cursorEffects from 'vuepress-plugin-cursor-effects';
-import dynamicTitle from 'vuepress-plugin-dynamic-title';
-import goTop from 'vuepress-plugin-go-top';
-import live2d from 'vuepress-plugin-live2d';
+import { oml2dPlugin } from "vuepress-plugin-oh-my-live2d";
+import { live2DAssistPlugin } from "./plugins/vuepress-plugin-live2DAssist";
+import { PopperShape } from "@moefy-canvas/theme-popper";
+import { popperPlugin } from "./plugins/vuepress-plugin-popper";
 
 export default defineUserConfig({
   base: "/Blog-SSU1053/",
@@ -19,37 +18,54 @@ export default defineUserConfig({
   theme,
 
   plugins: [
-    // 彩带插件
-    ribbon({
-      size: 90, // 彩带宽度
-      opacity: 0.8, // 不透明度
-      zIndex: -1, // z-index 属性
+    // 看板娘辅助插件
+    live2DAssistPlugin({
+      subPageHidden: true,
     }),
 
-    // 鼠标效果插件
-    cursorEffects({
-      size: 2, // 粒子大小
-      shape: ["star"], // 粒子形状
-      zIndex: 999999999, // z-index 属性
+    // 鼠标特效插件
+    popperPlugin({
+      config: {
+        shape: PopperShape.Star,
+        size: 1.95,
+        numParticles: 8,
+      },
     }),
 
-    // 返回顶部插件
-    goTop(),
-
-    // Live2D 模型插件
-    live2d({
-      modelName: ["hijiki", "tororo", "z16", "miku", "Epsilon2.1", "izumi"],
-      mobileShow: false,
-    }),
-
-    // 动态标题插件
-    dynamicTitle({
-      showIcon: "/favicon.ico",
-      showText: "(/≧▽≦/)咦！又好了！",
-      hideIcon: "/failure.ico",
-      hideText: "(●—●)喔哟，崩溃啦！",
-      recoverTime: 2000,
-    }),
+    // 看板娘插件
+    oml2dPlugin({
+      models: [
+        {
+          scale: 0.04,
+          path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/sipeibojue_5/sipeibojue_5.model3.json",
+          position: [0, 70],
+          stageStyle: {
+            height: 350
+          }
+        },
+        {
+          scale: 0.04,
+          path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/lafei_4/lafei_4.model3.json",
+          position: [0, 80],
+          stageStyle: {
+            height: 360
+          }
+        },
+        {
+          scale: 0.1,
+          path: "https://cdn.jsdelivr.net/gh/oragekk/blog-assets/live2D/z46_2/z46_2.model3.json",
+          position: [0, 60],
+          stageStyle: {
+            height: 330
+          }
+        },
+      ],
+      tips: {
+        idleTips: {
+          wordTheDay: true
+        },
+      },
+    })
   ],
 
   // 和 PWA 一起启用
