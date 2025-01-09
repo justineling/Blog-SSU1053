@@ -8,7 +8,7 @@ export default navbar([
     link: "/intro",
   },
   {
-    text: "Reflection",
+    text: "Reflections",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
