@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 //插件
-//导入模块
+//导入模块（本地插件＋远端下载的插件＋远端插件）
 import { oml2dPlugin } from "vuepress-plugin-oh-my-live2d";
 import { live2DAssistPlugin } from "./plugins/vuepress-plugin-live2DAssist";
 import { PopperShape } from "@moefy-canvas/theme-popper";
