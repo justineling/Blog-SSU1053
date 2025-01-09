@@ -12,7 +12,7 @@ export default sidebar({
     //   children: "structure",
     // },
     {
-      text: "Reflection",
+      text: "Reflections",
       icon: "book",
       prefix: "posts/reflections",
       children: "structure",
