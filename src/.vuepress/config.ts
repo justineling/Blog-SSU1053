@@ -4,9 +4,9 @@ import theme from "./theme.js";
 //插件
 //导入ES模块
 import { commentPlugin } from '@vuepress/plugin-comment'
-import { ribbon } from 'vuepress-plugin-ribbon'
 
 //导入CommonJS模块
+const ribbon = require("vuepress-plugin-ribbon");
 const cursorEffects = require("vuepress-plugin-cursor-effects");
 const dynamicTitle = require("vuepress-plugin-dynamic-title");
 const goTop = require("vuepress-plugin-go-top");
