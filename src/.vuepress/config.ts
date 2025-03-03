@@ -3,10 +3,10 @@ import theme from "./theme.js";
 
 //插件
 //导入模块（本地插件＋远端下载的插件＋远端插件）
-import { oml2dPlugin } from "vuepress-plugin-oh-my-live2d";
-import { live2DAssistPlugin } from "./plugins/vuepress-plugin-live2DAssist";
-import { PopperShape } from "@moefy-canvas/theme-popper";
-import { popperPlugin } from "./plugins/vuepress-plugin-popper";
+import { live2DAssistPlugin } from "./plugins/vuepress-plugin-live2DAssist";  // 本地插件：看板娘辅助插件
+import { popperPlugin } from "./plugins/vuepress-plugin-popper";  // 本地插件：鼠标特效插件
+import { PopperShape } from "@moefy-canvas/theme-popper"; // 远端下载的插件：鼠标特效插件
+import { oml2dPlugin } from "vuepress-plugin-oh-my-live2d"; // 远端插件：看板娘插件 
 
 export default defineUserConfig({
   base: "/Blog-SSU1053/",
